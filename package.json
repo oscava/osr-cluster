@@ -1,0 +1,26 @@
+{
+  "name": "osr-cluster",
+  "version": "0.1.0",
+  "description": "cluster",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscava/osr-cluster.git"
+  },
+  "keywords": [
+    "cluster"
+  ],
+  "author": "cava.zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscava/osr-cluster/issues"
+  },
+  "readmeFile":"README.md",
+  "homepage": "https://github.com/oscava/osr-cluster#readme"
+}
