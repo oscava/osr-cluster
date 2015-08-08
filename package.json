@@ -1,6 +1,6 @@
 {
   "name": "osr-cluster",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "cluster",
   "main": "index.js",
   "directories": {
@@ -21,6 +21,12 @@
   "bugs": {
     "url": "https://github.com/oscava/osr-cluster/issues"
   },
-  "readmeFile":"README.md",
-  "homepage": "https://github.com/oscava/osr-cluster#readme"
+  "readmeFile": "README.md",
+  "homepage": "https://github.com/oscava/osr-cluster#readme",
+  "dependencies": {
+    "osr-class": "~0.1.4",
+    "redis": "~0.12.1",
+    "urlencode": "~1.0.1",
+    "argh": "~0.1.4"
+  }
 }
