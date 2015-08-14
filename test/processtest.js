@@ -47,5 +47,9 @@ cluster.on("exit",function(processname, message){
 	console.log("[-EXIT-]","[ FROM:",processname,"]",message);
 })
 
-cluster.run("IH1508-5M-RGR",__dirname+"/democode.js",{ mqSubscribe:"ZJS" , require:[ path ], childMain: path });
+cluster.on("error",function( processname, message){
+	console.log("[-ERROR]","[ FROM:",processname,"]",message);
+})
+
+cluster.run("IH1508-5M-RGR",__dirname+"/democode.js",{ require:[ path ], childmain: path });
 // cluster.run("IH1509-1M-RGR",__dirname+"/democode.js",{ mqSubscribe:"ZJS" , require:[ path ], childMain: path });
