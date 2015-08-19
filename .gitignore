@@ -1,0 +1,3 @@
+*.name
+*.xml
+.idea/osr-cluster.iml
