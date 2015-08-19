@@ -33,7 +33,7 @@ var path = __dirname+"/demoQuant.js";
 
 var Cluster = require("../");
 
-var cluster = new Cluster("股指期货",{ mqHost: "120.24.95.74", mqPort: 6379, auth: "c@vacn.c0m" });
+var cluster = new Cluster("股指期货",);
 
 cluster.on("sys",function(processname, message){
 	console.log("[SYSTEM]","[ FROM:",processname,"]",message);
