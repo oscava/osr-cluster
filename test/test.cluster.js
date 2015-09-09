@@ -7,3 +7,7 @@ cluster.on("event",function(){
 })
 
 cluster.start( 2015 );
+
+// setInterval(function(){
+	// console.log(cluster.wokers,cluster.tasks);
+// },1000);

@@ -1,0 +1,26 @@
+{
+  "name": "osr-cluster",
+  "version": "1.0.1",
+  "description": "[![NPM](https://nodei.co/npm/osr-cluster.png?mini=true)](https://nodei.co/npm/osr-cluster/)\r ###How to use\r \tnpm install osr-cluster",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscava/osr-cluster.git"
+  },
+  "author": "cava.zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscava/osr-cluster/issues"
+  },
+  "homepage": "https://github.com/oscava/osr-cluster#readme",
+  "keywords": [
+    "osr",
+    "cluster"
+  ]
+}
